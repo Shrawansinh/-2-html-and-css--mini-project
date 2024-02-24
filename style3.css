@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.main_box{
+    background: url(photo.jpg);
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    background-size: cover;
+}
+.main_box .logo3 a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 74px;
+    top: 1px;
+    font-weight: 20px;
+}
+ .sidebar{
+    height: 97%;
+    width: 300px;
+    position: absolute;
+    background-color: rgb(255,255,255,0.05);
+    box-shadow: 0px 0px 6px rgb(255,255,255,0.5);
+
+}
+.logo #logo{
+    opacity: 0.5;
+}
+ .main_box .logo i{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    position: relative;
+    left: 20px;
+    top: 27px;
+    cursor: pointer;
+    
+}
+.sidebar .logo2 i{
+color: white;
+font-weight: bolder;
+font-size: 20px;
+position: absolute;
+left: 253px;
+top: 2px;
+cursor: pointer;
+}
+.sidebar .menu ul li i{
+color: white;
+line-height: 10px;
+margin-left: 13px;
+margin-top: 33px;
+}
+.sidebar .menu ul li a{
+    text-decoration: none;
+    color: azure;
+}
+.header{
+    box-shadow: 1.3px  1.3px rgb(255,255,255,0.3);
+}
+
+.main_box .sidebar .menu{
+    height: 78%;
+    margin-top: 23px;
+    padding: 10px 5px;
+    line-height: 58px;
+}
+.main_box .sidebar .footerlogo{
+    width: 100%;
+    font-size: 18px;
+    position: relative;
+    left: 82px;
+    bottom: 54px;
+
+}
+
+.main_box .sidebar .footerlogo a i{
+    color: aliceblue;
+    opacity: 0.5;
+}
+.main_box .sidebar .footerlogo a i:hover{
+    color: white;
+    opacity: 1;
+    transform: scale(1.2);
+}
+.main_box .sidebar .menu ul li:hover{
+    box-shadow: 2px  0px 2px 0px rgb(255,255,255,0.4);
+
+}
+ #check:checked ~ .sidebar{
+    left: 0;
+    
+
+}
+
